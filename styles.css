@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body {
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS reset ends here */
+  
+.navbar {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 100%;
+  height: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#about-nav {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+#store-nav {
+  margin-right: auto;
+}
+
+#gmail-nav {
+  margin-right: 2rem;
+}
+
+#images-nav {
+  margin-right: 2rem;
+}
+
+#sign-nav {
+  margin-right: 2rem;
+}
+
+img {
+  width: 15%;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+}
+
+#searchbar {
+  width: 220%;
+  height: 2.5em;
+  margin-left: -60%;
+  border-radius: 20px;
+  border: 1px solid #E8E8E8;
+  outline: none;
+}
+
+#search {
+  position: relative;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+#lucky {
+  position: relative;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+#search:hover {
+  border: 1px solid gray;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#lucky:hover {
+  border: 1px solid gray;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.footer-container {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+#footer-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 99.9%;
+  height: 2em;
+  background-color: #EFEFEF;
+  box-sizing: border-box;
+  border: 1px solid #F7F7F7;
+  position: fixed;
+  bottom: 1px;
+}
+
+.footernav {
+  margin-right: 2rem;
+}
+
+#searchworks {
+  margin-right: auto;
+}
+
+#advertising {
+  margin-left: 2rem;
+}
+
+
+
+
