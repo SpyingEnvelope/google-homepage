@@ -6,3 +6,5 @@ and search buttons.
 
 The navigation also took a bit of work to figure out but I believe it is pretty
 close to the source material. I hope you enjoy!
+
+From The Odin Project's [curriculum](https://spyingenvelope.github.io/google-homepage/)
